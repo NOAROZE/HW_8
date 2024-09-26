@@ -1,0 +1,17 @@
+numbers: list[int] = []
+for i in range(1, 101):
+    numbers.append(i)
+print(numbers[0])
+print(numbers[-1])
+print(len(numbers))
+print(numbers[2:12])
+print(numbers[79:])
+print(numbers[:17])
+print(numbers[::-1])
+print(numbers[1::2])
+print(numbers[2::3])
+print(numbers[6::7])
+print(numbers[9::10])
+print(numbers[98:63:-3])
+numbers.insert(50,999)
+numbers.pop()
